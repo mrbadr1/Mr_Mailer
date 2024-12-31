@@ -1,0 +1,27 @@
+headers = {
+    'Accept': 'application/json, text/plain, */*',
+    'Accept-Language': 'en-US,en;q=0.9,de;q=0.8,no;q=0.7',
+    'Connection': 'keep-alive',
+    'Content-Type': 'application/json;charset=UTF-8',
+    'Origin': 'https://mail.example.com',
+    'Referer': 'https://mail.example.com/Mail/view',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+    'X-XSRF-TOKEN': 'example-token',
+    'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+}
+
+cookies = {
+    'XSRF-TOKEN': 'example-token',
+    '_gcl_au': '1.1.example',
+    '_ga': 'GA1.2.example',
+}
+
+email_settings = {
+    'from': 'Customer Service <support@example.com>',
+    'locale': 'en',
+    'subject': 'Your Support Request',
+}
+
+email_url = "https://mail.example.com/send"

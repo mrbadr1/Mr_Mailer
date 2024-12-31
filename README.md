@@ -14,11 +14,21 @@ A Python application built with Tkinter for sending bulk HTML emails. This app s
 
 ---
 
-## Features
-- Send bulk emails with ease.
-- Support for HTML or plain text email formats.
-- Load email lists and configuration files.
-- Logging of email-sending events.
+Features (v 1.0):
+
+Send bulk emails with ease.
+
+Support for HTML or plain text email formats.
+
+Load only valid emails from the emails.txt list and configuration files, with error messages for invalid entries.
+
+Logging of email-sending events.
+
+Stop and resume functionality for email-sending process.
+
+Save the working and sent emails in emails_working.txt.
+
+Display RAM consumption during the process.
 
 ---
 
@@ -118,9 +128,13 @@ python Mr_Mailer.py
 Add personalization to your emails by using placeholders like `{name}` in your HTML. Replace them dynamically while sending emails to create a personalized touch for your recipients.
 
 ---
+## Contributions
+
+If you like what you see, don’t forget to star this repository! Contributions are always welcome. Feel free to submit issues or create pull requests to make this project even better. 😊
+
 
 ## Made for Fun
-Happy emailing! 😊  
+Happy Emailing! 😊  
 **Author:** Mrbadr1
 
 > _Bringing email campaigns to life, one bulk send at a time!_

@@ -14,7 +14,7 @@ A Python application built with Tkinter for sending bulk HTML emails. This app s
 
 ---
 
-Features (v 1.0):
+## Features (v 1.0):
 
 Send bulk emails with ease.
 
